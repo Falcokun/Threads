@@ -31,6 +31,5 @@ public class Motor extends Thread {
         } finally {
             latch.countDown();
         }
-
     }
 }
