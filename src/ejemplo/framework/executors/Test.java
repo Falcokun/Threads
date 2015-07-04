@@ -22,5 +22,13 @@ public class Test {
         //Programar la tarea 3 para que se demore 5 segundos y
         //luego se ejecuta cada 10 segundos
         executorService.scheduleAtFixedRate(t3, 5, 10, TimeUnit.SECONDS);
+
+        try {
+            TimeUnit.MINUTES.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        //Terminarlo
+        executorService.shutdown();
     }
 }
