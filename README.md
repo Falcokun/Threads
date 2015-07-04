@@ -65,6 +65,9 @@ Instante: Linea de tiempo ->  un momento es un instante.
 Duracion: transcurso entre dos instantes -> medida en nanosegundos
 <br>
 Instant, Duration
+
+####NTP
+
 ######Humano
 [Fecha] [Hora] [offset]
 <br>
