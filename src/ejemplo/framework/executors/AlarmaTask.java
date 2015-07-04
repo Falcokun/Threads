@@ -15,6 +15,6 @@ public class AlarmaTask implements Runnable {
 
     @Override
     public void run() {
-        System.out.println(new Date() + "beep beep beep");
+        System.out.println(new Date() + " beep beep beep");
     }
 }
