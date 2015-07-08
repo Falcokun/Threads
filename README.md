@@ -3,10 +3,10 @@
 2015-I
 
 ###Concurrencia
-1) Variables Atomicas<br>
-2) Lock<br>
-3) Sincronizados<br>
-4) Concurrency Collections Framework<br>
+####1) Variables Atomicas
+####2) Lock
+####3) Sincronizadores
+####4) Concurrency Collections Framework
 
 ###Variables Atomicas
 ######a)Scalar Atomic Variables
@@ -29,7 +29,6 @@ Cuando llegan a la barrier, todos pasan a la siguiente etapa.
 Similares a las barreras, detiene algo hasta que se cumpla una condicion dada
 #####Exchangers
 Permite cambiar un elemento entre 2 hilos
-
 ###Frameworks
 java.time 80clases
 JDK 8 -> Separa el tiempo Machine y Human

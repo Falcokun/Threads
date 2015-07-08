@@ -27,7 +27,6 @@ public class TareaPhasers extends Thread {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        //System.out.println("1." + phaser);
         System.out.println("Esperando completar la fase " + nombre);
         phaser.arriveAndDeregister();
         phaser.awaitAdvance(0);
